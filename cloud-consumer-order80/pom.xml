@@ -12,6 +12,12 @@
     <artifactId>cloud-consumer-order80</artifactId>
 
     <dependencies>
+        <!--spring-cloud-starter-netflix-eureka-client带着引入，此处不用单独引入
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+        </dependency>
+        -->
         <!--eureka-client-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
